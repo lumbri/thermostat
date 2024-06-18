@@ -3,6 +3,14 @@
     <file alias="Main.qml">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/Main.qml</file>
     <file alias="UI/HomeScreen/HomeScreen.qml">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/HomeScreen/HomeScreen.qml</file>
     <file alias="UI/HomeScreen/TemperatureControlSlider.qml">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/HomeScreen/TemperatureControlSlider.qml</file>
+    <file alias="UI/Assets/auto.png">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/auto.png</file>
+    <file alias="UI/Assets/calendar.png">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/calendar.png</file>
+    <file alias="UI/Assets/fire.png">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/fire.png</file>
+    <file alias="UI/Assets/info.png">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/info.png</file>
+    <file alias="UI/Assets/internet.png">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/internet.png</file>
+    <file alias="UI/Assets/settings.png">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/settings.png</file>
+    <file alias="UI/Assets/snow.png">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/snow.png</file>
+    <file alias="UI/Assets/thermometer.png">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/thermometer.png</file>
   </qresource>
 </RCC>
 

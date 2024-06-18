@@ -13,7 +13,7 @@ Item {
         anchors.centerIn: parent
         color: "white"
         font.pixelSize: 200
-        text: "65"
+        text: systemController.currentSystemTemperature
     }
     Text {
         id: systemStatus
@@ -24,7 +24,7 @@ Item {
         }
         font.pixelSize: 30
         color: "white"
-        text: "Heating..."
+        text: systemController.systemStatusMessage
     }
 
     Image {
@@ -36,7 +36,14 @@ Item {
         }
         width: 70
         height:  70
-        source: "file:///Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/fire.png"
+        source: {
+            if (systemController.systemState === 0)
+                return "../Assets/fire.png"
+            if (systemController.systemState === 1)
+                return "../Assets/snow.png"
+            if (systemController.systemState === 2)
+            return "../Assets/auto.png"
+        }
     }
     Image {
         id: settingsIcon
@@ -47,11 +54,12 @@ Item {
         }
         width: 70
         height:  70
-        source: "file:///Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/settings.png"
+        source: "../Assets/settings.png"
     }
 
     TemperatureControlSlider {
             id: temperatureSlider
+            value: systemController.targetTemp
             anchors {
                 top: parent.top
                 bottom: parent.bottom

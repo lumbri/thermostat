@@ -3,11 +3,12 @@ import QtQuick.Controls 2.15
 
 Slider {
     id: temperatureControlSlider
-    value: 70
+
     from: 55
     to: 85
     stepSize: 1
     orientation: Qt.Vertical
+    onValueChanged: systemController.setTargetTemp( value )
 
     background: Rectangle {
         height: parent.height
@@ -17,7 +18,7 @@ Slider {
     }
     handle: Rectangle {
         implicitWidth: 76
-       implicitHeight: 76
+        implicitHeight: 76
         radius: width / 2
         color: "black"
         border.color: "white"

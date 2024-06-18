@@ -20,6 +20,7 @@ qt_add_qml_module(appthermostat
         QML_FILES UI/HomeScreen/HomeScreen.qml
         QML_FILES UI/HomeScreen/TemperatureControlSlider.qml
         SOURCES Contollers/systemcontroller.h Contollers/systemcontroller.cpp
+        RESOURCES UI/Assets/auto.png UI/Assets/calendar.png UI/Assets/fire.png UI/Assets/info.png UI/Assets/internet.png UI/Assets/settings.png UI/Assets/snow.png UI/Assets/thermometer.png
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

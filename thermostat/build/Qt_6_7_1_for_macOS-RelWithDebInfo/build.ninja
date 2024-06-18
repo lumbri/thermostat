@@ -199,7 +199,7 @@ build all_qmllint_module: phony appthermostat_qmllint_module
 #############################################
 # Utility command for appthermostat_tooling
 
-build appthermostat_tooling: phony thermostat/Main.qml thermostat/UI/HomeScreen/HomeScreen.qml thermostat/UI/HomeScreen/TemperatureControlSlider.qml
+build appthermostat_tooling: phony thermostat/Main.qml thermostat/UI/HomeScreen/HomeScreen.qml thermostat/UI/HomeScreen/TemperatureControlSlider.qml thermostat/UI/Assets/auto.png thermostat/UI/Assets/calendar.png thermostat/UI/Assets/fire.png thermostat/UI/Assets/info.png thermostat/UI/Assets/internet.png thermostat/UI/Assets/settings.png thermostat/UI/Assets/snow.png thermostat/UI/Assets/thermometer.png
 
 
 #############################################
@@ -352,7 +352,7 @@ build .rcc/qmlcache/appthermostat_UI/HomeScreen/TemperatureControlSlider_qml.cpp
 #############################################
 # Custom command for .qt/rcc/qrc_appthermostat_raw_qml_0.cpp
 
-build .qt/rcc/qrc_appthermostat_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appthermostat_raw_qml_0.cpp: CUSTOM_COMMAND /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/Main.qml /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/HomeScreen/HomeScreen.qml /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/HomeScreen/TemperatureControlSlider.qml .qt/rcc/appthermostat_raw_qml_0.qrc /Users/lyubovkulik/Qt/6.7.1/macos/./libexec/rcc || appthermostat_autogen appthermostat_autogen_timestamp_deps appthermostat_qmlimportscan appthermostat_tooling
+build .qt/rcc/qrc_appthermostat_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appthermostat_raw_qml_0.cpp: CUSTOM_COMMAND /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/Main.qml /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/HomeScreen/HomeScreen.qml /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/HomeScreen/TemperatureControlSlider.qml /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/auto.png /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/calendar.png /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/fire.png /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/info.png /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/internet.png /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/settings.png /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/snow.png /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/thermometer.png .qt/rcc/appthermostat_raw_qml_0.qrc /Users/lyubovkulik/Qt/6.7.1/macos/./libexec/rcc || appthermostat_autogen appthermostat_autogen_timestamp_deps appthermostat_qmlimportscan appthermostat_tooling
   COMMAND = cd /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo && /Users/lyubovkulik/Qt/6.7.1/macos/./libexec/rcc --output /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/.qt/rcc/qrc_appthermostat_raw_qml_0.cpp --name appthermostat_raw_qml_0 /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/.qt/rcc/appthermostat_raw_qml_0.qrc --no-zstd
   DESC = Running rcc for resource appthermostat_raw_qml_0
   restat = 1
@@ -429,6 +429,78 @@ build thermostat/UI/HomeScreen/HomeScreen.qml | ${cmake_ninja_workdir}thermostat
 build thermostat/UI/HomeScreen/TemperatureControlSlider.qml | ${cmake_ninja_workdir}thermostat/UI/HomeScreen/TemperatureControlSlider.qml: CUSTOM_COMMAND /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/HomeScreen/TemperatureControlSlider.qml
   COMMAND = cd /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat && /Users/lyubovkulik/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E copy /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/HomeScreen/TemperatureControlSlider.qml /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/HomeScreen/TemperatureControlSlider.qml
   DESC = Copying UI/HomeScreen/TemperatureControlSlider.qml to /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/HomeScreen/TemperatureControlSlider.qml
+  restat = 1
+
+
+#############################################
+# Custom command for thermostat/UI/Assets/auto.png
+
+build thermostat/UI/Assets/auto.png | ${cmake_ninja_workdir}thermostat/UI/Assets/auto.png: CUSTOM_COMMAND /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/auto.png
+  COMMAND = cd /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat && /Users/lyubovkulik/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E copy /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/auto.png /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/Assets/auto.png
+  DESC = Copying UI/Assets/auto.png to /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/Assets/auto.png
+  restat = 1
+
+
+#############################################
+# Custom command for thermostat/UI/Assets/calendar.png
+
+build thermostat/UI/Assets/calendar.png | ${cmake_ninja_workdir}thermostat/UI/Assets/calendar.png: CUSTOM_COMMAND /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/calendar.png
+  COMMAND = cd /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat && /Users/lyubovkulik/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E copy /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/calendar.png /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/Assets/calendar.png
+  DESC = Copying UI/Assets/calendar.png to /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/Assets/calendar.png
+  restat = 1
+
+
+#############################################
+# Custom command for thermostat/UI/Assets/fire.png
+
+build thermostat/UI/Assets/fire.png | ${cmake_ninja_workdir}thermostat/UI/Assets/fire.png: CUSTOM_COMMAND /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/fire.png
+  COMMAND = cd /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat && /Users/lyubovkulik/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E copy /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/fire.png /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/Assets/fire.png
+  DESC = Copying UI/Assets/fire.png to /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/Assets/fire.png
+  restat = 1
+
+
+#############################################
+# Custom command for thermostat/UI/Assets/info.png
+
+build thermostat/UI/Assets/info.png | ${cmake_ninja_workdir}thermostat/UI/Assets/info.png: CUSTOM_COMMAND /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/info.png
+  COMMAND = cd /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat && /Users/lyubovkulik/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E copy /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/info.png /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/Assets/info.png
+  DESC = Copying UI/Assets/info.png to /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/Assets/info.png
+  restat = 1
+
+
+#############################################
+# Custom command for thermostat/UI/Assets/internet.png
+
+build thermostat/UI/Assets/internet.png | ${cmake_ninja_workdir}thermostat/UI/Assets/internet.png: CUSTOM_COMMAND /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/internet.png
+  COMMAND = cd /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat && /Users/lyubovkulik/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E copy /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/internet.png /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/Assets/internet.png
+  DESC = Copying UI/Assets/internet.png to /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/Assets/internet.png
+  restat = 1
+
+
+#############################################
+# Custom command for thermostat/UI/Assets/settings.png
+
+build thermostat/UI/Assets/settings.png | ${cmake_ninja_workdir}thermostat/UI/Assets/settings.png: CUSTOM_COMMAND /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/settings.png
+  COMMAND = cd /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat && /Users/lyubovkulik/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E copy /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/settings.png /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/Assets/settings.png
+  DESC = Copying UI/Assets/settings.png to /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/Assets/settings.png
+  restat = 1
+
+
+#############################################
+# Custom command for thermostat/UI/Assets/snow.png
+
+build thermostat/UI/Assets/snow.png | ${cmake_ninja_workdir}thermostat/UI/Assets/snow.png: CUSTOM_COMMAND /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/snow.png
+  COMMAND = cd /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat && /Users/lyubovkulik/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E copy /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/snow.png /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/Assets/snow.png
+  DESC = Copying UI/Assets/snow.png to /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/Assets/snow.png
+  restat = 1
+
+
+#############################################
+# Custom command for thermostat/UI/Assets/thermometer.png
+
+build thermostat/UI/Assets/thermometer.png | ${cmake_ninja_workdir}thermostat/UI/Assets/thermometer.png: CUSTOM_COMMAND /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/thermometer.png
+  COMMAND = cd /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat && /Users/lyubovkulik/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E copy /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/thermometer.png /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/Assets/thermometer.png
+  DESC = Copying UI/Assets/thermometer.png to /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/Assets/thermometer.png
   restat = 1
 
 
