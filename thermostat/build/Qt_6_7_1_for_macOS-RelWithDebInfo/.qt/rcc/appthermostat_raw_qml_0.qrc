@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/thermostat/">
+    <file alias="Main.qml">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/Main.qml</file>
+  </qresource>
+</RCC>
+

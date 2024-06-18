@@ -1,0 +1,14 @@
+-rootPath
+/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat
+-cmake-output
+-output-file
+/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/.qt/qml_imports/appthermostat_build.cmake
+-importPath
+/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat
+-importPath
+/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo
+-importPath
+/Users/lyubovkulik/Qt/6.7.1/macos/./qml
+-qrcFiles
+/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/.qt/rcc/qmake_thermostat.qrc
+/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/.qt/rcc/appthermostat_raw_qml_0.qrc

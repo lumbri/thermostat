@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-37561628b2de9e92b43d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "thermostat",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-RelWithDebInfo-f1f36a3e32688fdfeb24.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-RelWithDebInfo-e959b820692a18bc840f.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-RelWithDebInfo-63f12568ec20a691feff.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-RelWithDebInfo-fdb040719c077bb55b8c.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appthermostat::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appthermostat-RelWithDebInfo-8bc172295abd1a6521fa.json",
+					"name" : "appthermostat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appthermostat_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appthermostat_autogen-RelWithDebInfo-b46b8f243b9f3bec23fd.json",
+					"name" : "appthermostat_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appthermostat_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appthermostat_autogen_timestamp_deps-RelWithDebInfo-6322223c0c8c03785906.json",
+					"name" : "appthermostat_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appthermostat_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appthermostat_qmlimportscan-RelWithDebInfo-1de808321a45c7a0a8ae.json",
+					"name" : "appthermostat_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appthermostat_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appthermostat_qmllint-RelWithDebInfo-a95311821003aab34ac5.json",
+					"name" : "appthermostat_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appthermostat_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appthermostat_qmllint_json-RelWithDebInfo-9c5de3928564f5b9c8f8.json",
+					"name" : "appthermostat_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appthermostat_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appthermostat_qmllint_module-RelWithDebInfo-c28a770c0706accdbff2.json",
+					"name" : "appthermostat_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appthermostat_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appthermostat_qmltyperegistration-RelWithDebInfo-a42d77c0e561979b69a8.json",
+					"name" : "appthermostat_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appthermostat_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appthermostat_tooling-RelWithDebInfo-8f19fb3dab23716e82b0.json",
+					"name" : "appthermostat_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo",
+		"source" : "/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
