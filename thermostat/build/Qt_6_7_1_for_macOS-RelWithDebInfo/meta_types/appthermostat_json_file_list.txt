@@ -1,0 +1,1 @@
+/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/appthermostat_autogen/include/../BSRUZT2GI3/moc_systemcontroller.cpp.json

@@ -1,8 +1,17 @@
 import QtQuick
+import QtQuick.Window 2.12
+import Monty 1.0
 
 Window {
     width: 640
     height: 480
     visible: true
-    title: qsTr("Hello World")
+    title: qsTr("Thermostat")
+    Component.onCompleted: Qt.application.style = "Material"
+
+    Loader {
+        id: mainLoader
+        anchors.fill: parent
+        source: "./UI/HomeScreen/HomeScreen.qml"
+    }
 }

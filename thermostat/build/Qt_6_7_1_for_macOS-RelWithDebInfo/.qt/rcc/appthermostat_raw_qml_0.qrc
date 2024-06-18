@@ -1,6 +1,8 @@
 <RCC>
   <qresource prefix="/thermostat/">
     <file alias="Main.qml">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/Main.qml</file>
+    <file alias="UI/HomeScreen/HomeScreen.qml">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/HomeScreen/HomeScreen.qml</file>
+    <file alias="UI/HomeScreen/TemperatureControlSlider.qml">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/HomeScreen/TemperatureControlSlider.qml</file>
   </qresource>
 </RCC>
 

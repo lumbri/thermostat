@@ -3,3 +3,5 @@
 --resource
 /Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/build/Qt_6_7_1_for_macOS-RelWithDebInfo/.qt/rcc/appthermostat_raw_qml_0.qrc
 /thermostat/Main.qml
+/thermostat/UI/HomeScreen/HomeScreen.qml
+/thermostat/UI/HomeScreen/TemperatureControlSlider.qml

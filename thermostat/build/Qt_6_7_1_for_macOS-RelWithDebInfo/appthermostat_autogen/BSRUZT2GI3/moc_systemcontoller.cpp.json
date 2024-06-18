@@ -1,0 +1,172 @@
+{
+    "classes": [
+        {
+            "className": "systemcontoller",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "HeatSelectState",
+                    "values": [
+                        "HEATING",
+                        "COOLING",
+                        "AUTO"
+                    ]
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "name": "currentSystemTemperature",
+                    "notify": "currentSystemTemperaturChanged",
+                    "read": "currentSystemTemperatur",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setcurrentSystemTemperatur"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 1,
+                    "name": "targetTemp",
+                    "notify": "targetTempChanged",
+                    "read": "targetTemp",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setTargetTemp"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 2,
+                    "name": "systemStatusMessage",
+                    "notify": "systemStatusMessageChanged",
+                    "read": "systemStatusMessage",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setSystemStatusMessage"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 3,
+                    "name": "systemState",
+                    "notify": "systemStateChanged",
+                    "read": "systemState",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "HeatSelectState",
+                    "user": false,
+                    "write": "setSystemState"
+                }
+            ],
+            "qualifiedClassName": "systemcontoller",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "currentSystemTemperature",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "currentSystemTemperaturChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "targetTemp",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "targetTempChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "systemStatusMessage",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "systemStatusMessageChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "systemState",
+                            "type": "HeatSelectState"
+                        }
+                    ],
+                    "name": "systemStateChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "currentSystemTemperature",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setCurrentSystemTemperatur",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "targetTemp",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setTargetTemp",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "systemStatusMessage",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "setSystemStatusMessage",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "systemcontoller.h",
+    "outputRevision": 68
+}
