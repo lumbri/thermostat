@@ -71,28 +71,28 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3
 			]
 		},
 		{
 			"name" : "Resources",
 			"sourceIndexes" : 
 			[
-				3,
 				4,
 				5,
 				6,
 				7,
 				8,
 				9,
-				10
+				10,
+				11
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				11,
 				12,
 				13,
 				14,
@@ -102,7 +102,9 @@
 				18,
 				19,
 				20,
-				21
+				21,
+				22,
+				23
 			]
 		}
 	],
@@ -124,6 +126,12 @@
 			"backtrace" : 5,
 			"isGenerated" : true,
 			"path" : "build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/HomeScreen/TemperatureControlSlider.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/HomeScreen/HeatSelectDialog.qml",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -190,6 +198,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/HomeScreen/TemperatureControlSlider.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/HomeScreen/HeatSelectDialog.qml.rule",
 			"sourceGroupIndex" : 2
 		},
 		{

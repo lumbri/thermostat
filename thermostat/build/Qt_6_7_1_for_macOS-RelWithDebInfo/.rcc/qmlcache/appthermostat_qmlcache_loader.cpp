@@ -26,6 +26,13 @@ namespace _thermostat_UI_HomeScreen_TemperatureControlSlider_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _thermostat_UI_HomeScreen_HeatSelectDialog_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -43,6 +50,7 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/thermostat/Main.qml"), &QmlCacheGeneratedCode::_thermostat_Main_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/thermostat/UI/HomeScreen/HomeScreen.qml"), &QmlCacheGeneratedCode::_thermostat_UI_HomeScreen_HomeScreen_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/thermostat/UI/HomeScreen/TemperatureControlSlider.qml"), &QmlCacheGeneratedCode::_thermostat_UI_HomeScreen_TemperatureControlSlider_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/thermostat/UI/HomeScreen/HeatSelectDialog.qml"), &QmlCacheGeneratedCode::_thermostat_UI_HomeScreen_HeatSelectDialog_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

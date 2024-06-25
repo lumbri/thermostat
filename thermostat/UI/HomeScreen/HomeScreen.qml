@@ -3,6 +3,32 @@ import QtQuick.Controls 2.15
 
 
 Item {
+    id: homeScreen
+
+    property var heatSelectDialogHolder: null
+
+    function createHeatSelectDialog (){
+        if ( heatSelectDialogHolder === null) {
+            var component = Qt.createComponent("HeatSelectDialog.qml")
+            if (component.status === Component.Ready) {
+                heatSelectDialogHolder = component.createObject (homeScreen, {"x":0, "y":0})
+                if (heatSelectDialogHolder){
+                heatSelectDialogHolder.anchors.fill = homeScreen
+                heatSelectDialogHolder.destroyMe.connect (destroyHeatSelectDialog)
+                }
+            } else if (component.status === Component.Error) {
+                console.log("Error loading component:", component.errorString())
+            }
+        }
+    }
+
+    function destroyHeatSelectDialog (){
+        if (heatSelectDialogHolder !== null){
+            heatSelectDialogHolder.destroy()
+            heatSelectDialogHolder = null
+        }
+    }
+
     Rectangle {
         id: mainBackground
         anchors.fill: parent
@@ -43,6 +69,11 @@ Item {
                 return "../Assets/snow.png"
             if (systemController.systemState === 2)
             return "../Assets/auto.png"
+        }
+        MouseArea {
+            anchors.fill: parent
+            onClicked: createHeatSelectDialog
+
         }
     }
     Image {
