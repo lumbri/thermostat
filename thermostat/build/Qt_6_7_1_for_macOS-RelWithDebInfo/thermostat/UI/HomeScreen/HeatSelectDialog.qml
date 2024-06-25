@@ -10,7 +10,7 @@ Rectangle {
 
     MouseArea{
         anchors.fill: parent
-        onClicked: heatSelectDialog.destroyMe
+        onClicked: heatSelectDialog.destroyMe ()
     }
     Rectangle {
         id: innerRectangle

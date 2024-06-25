@@ -7,23 +7,33 @@ Item {
 
     property var heatSelectDialogHolder: null
 
-    function createHeatSelectDialog (){
-        if ( heatSelectDialogHolder === null) {
+    function createHeatSelectDialog() {
+        console.log("createHeatSelectDialog called") // Отладочное сообщение
+        if (heatSelectDialogHolder === null) {
+            console.log("heatSelectDialogHolder is null, creating component") // Отладочное сообщение
             var component = Qt.createComponent("HeatSelectDialog.qml")
+            console.log("Component status:", component.status) // Отладочное сообщение
             if (component.status === Component.Ready) {
-                heatSelectDialogHolder = component.createObject (homeScreen, {"x":0, "y":0})
-                if (heatSelectDialogHolder){
-                heatSelectDialogHolder.anchors.fill = homeScreen
-                heatSelectDialogHolder.destroyMe.connect (destroyHeatSelectDialog)
+                console.log("Component is ready") // Отладочное сообщение
+                heatSelectDialogHolder = component.createObject(homeScreen, {"x": 0, "y": 0})
+                if (heatSelectDialogHolder) {
+                    console.log("Component created successfully") // Отладочное сообщение
+                    heatSelectDialogHolder.anchors.fill = homeScreen
+                    heatSelectDialogHolder.destroyMe.connect(destroyHeatSelectDialog)
+                } else {
+                    console.log("Failed to create component") // Отладочное сообщение
                 }
             } else if (component.status === Component.Error) {
-                console.log("Error loading component:", component.errorString())
+                console.log("Error loading component:", component.errorString()) // Отладочное сообщение
             }
+        } else {
+            console.log("heatSelectDialogHolder is not null") // Отладочное сообщение
         }
     }
 
-    function destroyHeatSelectDialog (){
-        if (heatSelectDialogHolder !== null){
+    function destroyHeatSelectDialog() {
+        console.log("destroyHeatSelectDialog called") // Отладочное сообщение
+        if (heatSelectDialogHolder !== null) {
             heatSelectDialogHolder.destroy()
             heatSelectDialogHolder = null
         }
@@ -72,7 +82,7 @@ Item {
         }
         MouseArea {
             anchors.fill: parent
-            onClicked: createHeatSelectDialog
+            onClicked: createHeatSelectDialog ()
 
         }
     }
