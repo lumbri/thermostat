@@ -96,6 +96,11 @@ Item {
         width: 70
         height:  70
         source: "../Assets/settings.png"
+        MouseArea {
+            anchors.fill: parent
+            onClicked: mainLoader.source = "./UI/SettingsScreen/SettingsScreen.qml"
+
+        }
     }
 
     TemperatureControlSlider {

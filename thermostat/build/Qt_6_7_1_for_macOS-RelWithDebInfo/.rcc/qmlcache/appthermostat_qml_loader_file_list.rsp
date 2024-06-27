@@ -6,3 +6,4 @@
 /thermostat/UI/HomeScreen/HomeScreen.qml
 /thermostat/UI/HomeScreen/TemperatureControlSlider.qml
 /thermostat/UI/HomeScreen/HeatSelectDialog.qml
+/thermostat/UI/SettingsScreen/SettingsScreen.qml
