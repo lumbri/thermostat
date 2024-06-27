@@ -5,6 +5,7 @@
     <file alias="UI/HomeScreen/TemperatureControlSlider.qml">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/HomeScreen/TemperatureControlSlider.qml</file>
     <file alias="UI/HomeScreen/HeatSelectDialog.qml">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/HomeScreen/HeatSelectDialog.qml</file>
     <file alias="UI/SettingsScreen/SettingsScreen.qml">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/SettingsScreen/SettingsScreen.qml</file>
+    <file alias="UI/SettingsScreen/SettingsMainMenu.qml">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/SettingsScreen/SettingsMainMenu.qml</file>
     <file alias="UI/Assets/auto.png">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/auto.png</file>
     <file alias="UI/Assets/calendar.png">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/calendar.png</file>
     <file alias="UI/Assets/fire.png">/Users/lyubovkulik/Documents/Thermostat_qml/thermostat/thermostat/UI/Assets/fire.png</file>

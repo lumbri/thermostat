@@ -1,4 +1,5 @@
 import QtQuick 2.15
+import QtQuick.Controls
 
 Rectangle {
     id: settingsScreen
@@ -23,15 +24,11 @@ Rectangle {
         }
     }
 
-    Rectangle {
-        id: stackViewBackground
-        width: parent.width * .7
-        height: parent.height * .7
-        anchors.centerIn: parent
-        radius: 5
-        color: "black"
-        border.width: 3
-        border.color: "white"
+
+    StackView {
+        id: settingsStackView
+        anchors.fill: parent
+        initialItem: "SettingsMainMenu.qml"
     }
 
 }
