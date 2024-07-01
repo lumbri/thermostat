@@ -12,12 +12,12 @@ Item {
         border.color: "white"
         Text {
             id: name
-            text: qsTr("Made by:<br>
+            text: "Made by:<br>
 Liubov Kulyk <br>
 Softawre Engeneer<br><br>
-Developed using Qt/QML")
+Developed using Qt/QML"
             anchors {
-                top: parent.left
+                top: parent.top
                 left:  parent.left
                 topMargin: 60
                 leftMargin: 40
