@@ -74,14 +74,14 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6
 			]
 		},
 		{
 			"name" : "Resources",
 			"sourceIndexes" : 
 			[
-				6,
 				7,
 				8,
 				9,
@@ -89,14 +89,14 @@
 				11,
 				12,
 				13,
-				14
+				14,
+				15
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				15,
 				16,
 				17,
 				18,
@@ -110,7 +110,9 @@
 				26,
 				27,
 				28,
-				29
+				29,
+				30,
+				31
 			]
 		}
 	],
@@ -150,6 +152,12 @@
 			"backtrace" : 5,
 			"isGenerated" : true,
 			"path" : "build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/SettingsScreen/SettingsMainMenu.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/SettingsScreen/AboutPage.qml",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -240,6 +248,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/SettingsScreen/SettingsMainMenu.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/UI/SettingsScreen/AboutPage.qml.rule",
 			"sourceGroupIndex" : 2
 		},
 		{

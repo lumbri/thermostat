@@ -3,10 +3,10 @@ import QtQuick 2.15
 Item {
     ListModel {
         id: settingsMainMenuListModel
-        ListElement { menuText: "Temperature Units"}
-        ListElement { menuText: "Schedule"}
-        ListElement { menuText: "WiFi Settings"}
-        ListElement { menuText: "About"}
+        ListElement { menuText: "Temperature Units"; iconSource: "../Assets/thermometer.png"}
+        ListElement { menuText: "Schedule"; iconSource: "../Assets/calendar.png"}
+        ListElement { menuText: "WiFi Settings"; iconSource: "../Assets/internet.png"}
+        ListElement { menuText: "About"; iconSource: "../Assets/info.png"}
     }
     Rectangle {
         id: stackViewBackground
@@ -23,15 +23,37 @@ Item {
         id: settingsListView
         anchors.fill: stackViewBackground
         model: settingsMainMenuListModel
+        interactive: false
         delegate: Rectangle {
-            width: stackViewBackground.width
-            height: stackViewBackground.height / 4
+            id: mainButton
+            width: settingsListView.width
+            height: settingsListView.height / 4
             color: "black"
             border.color: "white"
             border.width: 4
             radius: 5
+
+            Image {
+                id: iconImage
+
+                anchors {
+                    verticalCenter: parent.verticalCenter
+                    left: parent.left
+                    leftMargin: 30
+                }
+                source: iconSource
+                height: 48
+                width: 48
+
+            }
             Text {
-                anchors.centerIn: parent
+                id: mainText
+                anchors {
+                    verticalCenter: parent.verticalCenter
+                    left: iconImage.right
+                    leftMargin: 40
+                }
+
                 color: "white"
                 font.pixelSize: 30
                 text: menuText
@@ -39,7 +61,19 @@ Item {
 
             MouseArea {
                 anchors.fill: parent
+                onPressed: {
+                    mainButton.color = "white"
+                    mainText.color = "black"
+                }
+
+                onReleased: {
+                    mainButton.color = "black"
+                    mainText.color = "white"
+                }
+
+
                 onClicked: {
+                    settingsStackView.push ("AboutPage.qml")
 
                 }
             }

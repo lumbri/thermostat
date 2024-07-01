@@ -7,4 +7,5 @@ TemperatureControlSlider 1.0 UI/HomeScreen/TemperatureControlSlider.qml
 HeatSelectDialog 1.0 UI/HomeScreen/HeatSelectDialog.qml
 SettingsScreen 1.0 UI/SettingsScreen/SettingsScreen.qml
 SettingsMainMenu 1.0 UI/SettingsScreen/SettingsMainMenu.qml
+AboutPage 1.0 UI/SettingsScreen/AboutPage.qml
 

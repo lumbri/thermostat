@@ -100,13 +100,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 46,
+				"line" : 47,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 41,
+				"line" : 42,
 				"parent" : 0
 			},
 			{
@@ -619,6 +619,18 @@
 				"parent" : 64
 			},
 			{
+				"command" : 23,
+				"file" : 5,
+				"line" : 2531,
+				"parent" : 64
+			},
+			{
+				"command" : 23,
+				"file" : 5,
+				"line" : 2683,
+				"parent" : 64
+			},
+			{
 				"command" : 27,
 				"file" : 5,
 				"line" : 2766,
@@ -628,19 +640,19 @@
 				"command" : 26,
 				"file" : 0,
 				"line" : 337,
-				"parent" : 98
+				"parent" : 100
 			},
 			{
 				"command" : 25,
 				"file" : 0,
 				"line" : 2390,
-				"parent" : 99
+				"parent" : 101
 			},
 			{
 				"command" : 23,
 				"file" : 0,
 				"line" : 2004,
-				"parent" : 100
+				"parent" : 102
 			},
 			{
 				"command" : 29,
@@ -652,7 +664,7 @@
 				"command" : 23,
 				"file" : 0,
 				"line" : 2117,
-				"parent" : 102
+				"parent" : 104
 			}
 		]
 	},
@@ -865,7 +877,8 @@
 				15,
 				17,
 				19,
-				20
+				21,
+				22
 			]
 		}
 	],
@@ -1013,15 +1026,15 @@
 			"sourceIndexes" : 
 			[
 				0,
-				33,
-				47,
-				48,
-				49,
+				35,
 				50,
 				51,
 				52,
 				53,
-				54
+				54,
+				55,
+				56,
+				57
 			]
 		},
 		{
@@ -1039,7 +1052,8 @@
 				15,
 				17,
 				19,
-				20
+				21,
+				22
 			]
 		},
 		{
@@ -1053,9 +1067,10 @@
 				14,
 				16,
 				18,
-				21,
-				22,
-				23
+				20,
+				23,
+				24,
+				25
 			]
 		},
 		{
@@ -1069,23 +1084,21 @@
 			"name" : "Resources",
 			"sourceIndexes" : 
 			[
-				24,
-				25,
 				26,
 				27,
 				28,
 				29,
 				30,
 				31,
-				32
+				32,
+				33,
+				34
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				34,
-				35,
 				36,
 				37,
 				38,
@@ -1096,7 +1109,10 @@
 				43,
 				44,
 				45,
-				46
+				46,
+				47,
+				48,
+				49
 			]
 		}
 	],
@@ -1226,72 +1242,84 @@
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 101,
+			"backtrace" : 98,
+			"path" : "UI/SettingsScreen/AboutPage.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 99,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_7_1_for_macOS-RelWithDebInfo/.rcc/qmlcache/appthermostat_UI/SettingsScreen/AboutPage_qml.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 103,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Qt_6_7_1_for_macOS-RelWithDebInfo/.qt/rcc/qrc_appthermostat_raw_qml_0.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"isGenerated" : true,
 			"path" : "build/Qt_6_7_1_for_macOS-RelWithDebInfo/.qt/rcc/qmake_thermostat.qrc",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"isGenerated" : true,
 			"path" : "build/Qt_6_7_1_for_macOS-RelWithDebInfo/thermostat/qmldir",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"isGenerated" : true,
 			"path" : "build/Qt_6_7_1_for_macOS-RelWithDebInfo/.qt/rcc/appthermostat_raw_qml_0.qrc",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "UI/Assets/auto.png",
 			"sourceGroupIndex" : 4
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "UI/Assets/calendar.png",
 			"sourceGroupIndex" : 4
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "UI/Assets/fire.png",
 			"sourceGroupIndex" : 4
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "UI/Assets/info.png",
 			"sourceGroupIndex" : 4
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "UI/Assets/internet.png",
 			"sourceGroupIndex" : 4
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "UI/Assets/settings.png",
 			"sourceGroupIndex" : 4
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "UI/Assets/snow.png",
 			"sourceGroupIndex" : 4
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "UI/Assets/thermometer.png",
 			"sourceGroupIndex" : 4
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "UI/Assets/arrow.png",
 			"sourceGroupIndex" : 4
 		},
@@ -1359,6 +1387,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Qt_6_7_1_for_macOS-RelWithDebInfo/.rcc/qmlcache/appthermostat_UI/SettingsScreen/SettingsMainMenu_qml.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_7_1_for_macOS-RelWithDebInfo/.rcc/qmlcache/appthermostat_UI/SettingsScreen/AboutPage_qml.cpp.rule",
 			"sourceGroupIndex" : 5
 		},
 		{

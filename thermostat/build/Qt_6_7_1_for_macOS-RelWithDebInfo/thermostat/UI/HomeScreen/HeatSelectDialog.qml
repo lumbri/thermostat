@@ -37,8 +37,10 @@ Rectangle {
     ListView {
         id: heatListView
         anchors.fill: innerRectangle
+        interactive: false
         model: heatModel
         delegate: Rectangle {
+            id: mainButton
             width: innerRectangle.width
             height: innerRectangle.height / 3
             color: "black"
@@ -46,6 +48,7 @@ Rectangle {
             border.width: 4
             radius: 5
             Text {
+                id: mainText
                 anchors.centerIn: parent
                 color: "white"
                 font.pixelSize: 42
@@ -54,6 +57,15 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
+                onPressed: {
+                    mainButton.color = "white"
+                    mainText.color = "black"
+                }
+
+                onReleased: {
+                    mainButton.color = "black"
+                    mainText.color = "white"
+                }
                 onClicked: {
                     if ( controlText === "Heat" )
                         systemController.setSystemState( 0 )

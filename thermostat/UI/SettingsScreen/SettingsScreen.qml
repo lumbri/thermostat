@@ -19,7 +19,12 @@ Rectangle {
 
         MouseArea {
             anchors.fill: parent
-            onClicked: mainLoader.source = "./UI/HomeScreen/HomeScreen.qml"
+            onClicked: {
+                if (settingsStackView.depth >= 2 )
+                    settingsStackView.pop()
+                else
+                    mainLoader.source = "./UI/HomeScreen/HomeScreen.qml"
+            }
 
         }
     }
@@ -29,6 +34,7 @@ Rectangle {
         id: settingsStackView
         anchors.fill: parent
         initialItem: "SettingsMainMenu.qml"
+        clip: true
     }
 
 }
